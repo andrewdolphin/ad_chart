@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "build": "esbuild src/plotly-graph-card.ts --outdir=dist --bundle --minify"
+  },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^17.1.0",
     "@rollup/plugin-node-resolve": "^11.2.0",
