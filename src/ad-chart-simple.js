@@ -332,3 +332,4 @@ td {
   }
 
 }
+customElements.define('ad-chart-new', MyElement);
